@@ -1,1 +1,1 @@
-https://AlexandrStetskii(@alex_merhaba).github.io/rsschool-cv/cv
+https://alexstetskij.github.io/rsschool-cv/cv
