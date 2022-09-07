@@ -1,0 +1,11 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #e6dede;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    font-size: 18px;
+    line-height: 21px;
+}
