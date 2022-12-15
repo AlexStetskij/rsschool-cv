@@ -2,7 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Gelasio:ital@0;1&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
     <title>RS School: Summary</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -12,54 +19,114 @@
         <nav class="navigation">
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">About</a>
+                    <a class="navigation-link" href="#about">About</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Summary</a>
+                    <a class="navigation-link" href="#summary">Summary</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Skills</a>
+                    <a class="navigation-link" href="#skill">Skills</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Education</a>
+                    <a class="navigation-link" href="#my-works">My works</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Specialty</a>
+                    <a class="navigation-link" href="#education">Education</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">English</a>
+                    <a class="navigation-link" href="#specialty">Specialty</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#english">English</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main class="main-container">
-        <section class="about">
-            <img class="photo" src="#" width="155" height="155" alt="my photo">
-            <h1 class="about-title">Alexandr Stetskii.</h1>
-            <ul class="about-list">
-                <li class="about-item">
-                    <h2 class="about-item-title">Date of Birth:</h2>
-                    <p class="about-item-text">10.11.1982</p>
-                </li>
-                <li class="about-item">
-                    <h2 class="about-item-title">Nationality and Address:</h2>
-                    <p class="about-item-text">Russian, Antalya.</p>
-                </li>
-                <li class="about-item">
-                    <h2 class="about-item-title">Discord name:</h2>
-                    <p class="about-item-text">Alexandr Stetskii(@alex_merhaba)</p>
-                </li>
-                <li class="about-item">
-                    <h2 class="about-item-title">Email:</h2>
-                    <p class="about-item-text">alexstetskijv67@gmail.com</p>
-                </li>
-                <li class="about-item">
-                    <h2 class="about-item-title">Family Status:</h2>
-                    <p class="about-item-text">Married</p>
-                </li>
-            </ul>
-        </section>
+        <div class="container">
+            <section class="about" id="about">
+                <h1 class="about-title">Alexandr Stetskii</h1>
+                <div class="about-wrapper">
+                    <img class="photo" src="./images/IMG_20190618_132917.jpg" width="170" height="150" alt="my photo">
+                    <ul class="about-list">
+                        <li class="about-item">
+                            <h2 class="about-item-title">Date of birth:</h2>
+                            <p class="about-item-text">10.11.1982</p>
+                        </li>
+                        <li class="about-item">
+                            <h2 class="about-item-title">Nationality and address:</h2>
+                            <p class="about-item-text">Russian, Antalya.</p>
+                        </li>
+                        <li class="about-item">
+                            <h2 class="about-item-title">Discord name:</h2>
+                            <p class="about-item-text">Alexandr Stetskii(@alex_merhaba)</p>
+                        </li>
+                        <li class="about-item">
+                            <h2 class="about-item-title">Email:</h2>
+                            <p class="about-item-text">alexstetskijv67@gmail.com</p>
+                        </li>
+                        <li class="about-item">
+                            <h2 class="about-item-title">Family status:</h2>
+                            <p class="about-item-text">Married</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="container-wrapper">
+                <section class="summary" id="summary">
+                    <h2 class="summary-title">Summary</h2>
+                    <p class="summary-text">I am interested in the latest developments in information<br>
+                        technology, so
+                        I
+                        want
+                        to
+                        prove to myself that it is possible to<br> explore a completely new field of activity. My
+                        strengths:
+                        reliability, communication skills, organization.</p>
+                </section>
+                <section class="skill" id="skill">
+                    <h2 class="skill-title">Skills</h2>
+                    <p class="skill-text">My skills are minimal.<br> <code class="code-text">
+                        function multiply(a, b){
+                            return a * b;
+                        }
+                        console.log(multiply(4, 15));</code></p>
+                </section>
+                <section class="my-works" id="my-works">
+                    <h2 class="my-works-title">My works</h2>
+                    <a class="my-works-link" target="_blank" href="https://alexstetskij.github.io/797607-sedona-34">
+                        <p class="my-works-text">Application</p>
+                    </a>
+                    <a class="my-works-link" target="_blank" href="https://github.com/AlexStetskij/797607-sedona-34">
+                        <p class="my-works-text">Source code</p>
+                    </a>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="education-title">Education</h2>
+                    <p class="education-text">Moscow State Communications University (MIIT)</p>
+                </section>
+                <section class="specialty" id="specialty">
+                    <h2 class="specialty-title">Specialty</h2>
+                    <p class="specialty-text">Construction engineer</p>
+                </section>
+                <section class="english" id="english">
+                    <h2 class="english-title">English</h2>
+                    <p class="english-text">Level: elementary (A1)</p>
+                </section>
+            </div>
+        </div>
     </main>
+    <footer class="page-footer">
+        <div class="footer-container">
+            <a class="footer-link" target="_blank" href="https://github.com/AlexStetskij">
+                <p class="footer-text">© Copyright 2022 by Alexandr Stetskii</p>
+            </a>
+            <a class="footer-link" target="_blank" href="https://rs.school/js">
+                <img class="footer-logo" src="../rsschool-cv/icons/rs_school_js.svg" width="75" height="35"
+                    alt="Logotip Rs school">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
